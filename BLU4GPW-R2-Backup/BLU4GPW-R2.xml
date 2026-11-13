@@ -1,0 +1,2800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\DATA\Donanim\BLU4GPW-R2\BLU4GPW-R2.kicad_sch</source>
+    <date>Thu Aug 15 13:19:07 2024</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BLU4GPW-R2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CONNECTION-COM/" tstamps="/e12ab09f-a3b3-4ac5-b79a-d5ac8739c7fb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connection_Con.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Relyas.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RS485.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SMPS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>regulators.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>inputs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>BLU4GP_Board</value>
+      <footprint>Aktif:BLULC-Power</footprint>
+      <libsource lib="Aktif" part="BLU4GP_Board" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLU4GPW-R2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>876c5702-bf4a-45c8-bedc-dd0b2a7379c6</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLU4GPW-R2.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec952d91-5e13-403f-9c61-18ed54d2cd9e</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLU4GPW-R2.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>747ed8fe-728d-4824-ab02-a0f2640ab048</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLU4GPW-R2.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>212483a4-dd48-42d4-a8f6-fcbc34b1d2e9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="CONNECTION-COM"/>
+      <property name="Sheetfile" value="Connection_Con.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/CONNECTION-COM/" tstamps="/e12ab09f-a3b3-4ac5-b79a-d5ac8739c7fb/"/>
+      <tstamps>3b20d71c-aec8-4cc4-ba92-bc03cf4b786e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>8X2 HDR(FEMALE)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">FHW205-08,02A01,2X8P  8X2 HDR(FEMALE)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="FHW205-08,02A01,2X8P  8X2 HDR(FEMALE)"/>
+      <property name="Sheetname" value="CONNECTION-COM"/>
+      <property name="Sheetfile" value="Connection_Con.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CONNECTION-COM/" tstamps="/e12ab09f-a3b3-4ac5-b79a-d5ac8739c7fb/"/>
+      <tstamps>35b77a0b-1f1a-4620-bc87-9178bc531e43</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>680R 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="CONNECTION-COM"/>
+      <property name="Sheetfile" value="Connection_Con.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/CONNECTION-COM/" tstamps="/e12ab09f-a3b3-4ac5-b79a-d5ac8739c7fb/"/>
+      <tstamps>c6eedd58-30ea-4d8f-98fa-97229aa63bb2</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="CONNECTION-COM"/>
+      <property name="Sheetfile" value="Connection_Con.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/CONNECTION-COM/" tstamps="/e12ab09f-a3b3-4ac5-b79a-d5ac8739c7fb/"/>
+      <tstamps>74d8c65b-709f-4b8a-a638-fd0c4b0c8284</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">LL4148 - HOTTECH BRAND </field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="LL4148 - HOTTECH BRAND "/>
+      <property name="Sheetname" value="Relays"/>
+      <property name="Sheetfile" value="Relyas.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/"/>
+      <tstamps>6e1791e0-84c3-48c8-a128-f8fa4abdce47</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">LL4148 - HOTTECH BRAND </field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="LL4148 - HOTTECH BRAND "/>
+      <property name="Sheetname" value="Relays"/>
+      <property name="Sheetfile" value="Relyas.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/"/>
+      <tstamps>61abc36d-79e6-48a7-885f-00d8e4007d90</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JL15EDGRC-38104G01 Pitch:3.81mm 4 pins</value>
+      <footprint>enguru_28082018:15EDGVC-3.81-04P-14-00SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Relays"/>
+      <property name="Sheetfile" value="Relyas.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/"/>
+      <tstamps>d03a7bff-a669-4a1d-b6d0-14748de43b14</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>SRA-5VDC-CL</value>
+      <footprint>Aktif:SRA-5VDC-CL</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SRA-05VDC-CL</field>
+      </fields>
+      <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SRA-05VDC-CL"/>
+      <property name="Sheetname" value="Relays"/>
+      <property name="Sheetfile" value="Relyas.kicad_sch"/>
+      <property name="ki_description" value="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
+      <sheetpath names="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/"/>
+      <tstamps>f2989ffd-fe23-463c-9789-1d80b1e21f63</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>SRA-5VDC-CL</value>
+      <footprint>Aktif:SRA-5VDC-CL</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SRA-05VDC-CL</field>
+      </fields>
+      <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SRA-05VDC-CL"/>
+      <property name="Sheetname" value="Relays"/>
+      <property name="Sheetfile" value="Relyas.kicad_sch"/>
+      <property name="ki_description" value="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
+      <sheetpath names="/Relays/" tstamps="/de416a6e-8729-425c-a133-eaefc4783a73/"/>
+      <tstamps>7999e3a0-a3c0-4bc1-a0b5-4de87093b56a</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>8fed4bd8-6606-4816-b6a3-1908f7a942a7</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>61466ba3-effb-414e-9910-626dc0b4fcb2</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>SM712_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SM712-02HTG</field>
+      </fields>
+      <libsource lib="Diode" part="SM712_SOT23" description="7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SM712-02HTG"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>8371cf90-f6bd-406e-a6a5-761eb58a728e</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>SM712_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SM712-02HTG</field>
+      </fields>
+      <libsource lib="Diode" part="SM712_SOT23" description="7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SM712-02HTG"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"/>
+      <property name="ki_keywords" value="transient voltage suppressor thyrector transil"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>27dfb25a-77e3-41fb-b7a9-cd011517259e</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>30 Ohms @ 100 MHz 4a 14mR</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">HCB2012KF-300T40</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="HCB2012KF-300T40"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>a4740433-383f-4ed4-b779-dcfdf50bcae1</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>30 Ohms @ 100 MHz 4a 14mR</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">HCB2012KF-300T40</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="HCB2012KF-300T40"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>db9f5242-a612-4582-a07c-cfbdd6aa87de</tstamps>
+    </comp>
+    <comp ref="FB3">
+      <value>30 Ohms @ 100 MHz 4a 14mR</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">HCB2012KF-300T40</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="HCB2012KF-300T40"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>4b272605-f620-4958-8ad2-4a6ec60b3e45</tstamps>
+    </comp>
+    <comp ref="FB4">
+      <value>30 Ohms @ 100 MHz 4a 14mR</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">HCB2012KF-300T40</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="HCB2012KF-300T40"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>08a9c7cd-ba20-4c04-b97e-e9043fb5902a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JL15EDGRC-38104G01 Pitch:3.81mm 4 pins</value>
+      <footprint>enguru_28082018:15EDGVC-3.81-04P-14-00SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>c5f5073e-f744-4a7b-bd65-e39f55dcc2e9</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>61aa2f95-66e6-4cb8-9bfb-02697f7978a3</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>50dcfbbc-0e08-4f95-b0b6-577536ed471c</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>d7b797a9-191a-47ed-8b6b-e29415cd9b66</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4K7 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0472T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>243936d0-8443-45d1-8ac1-a6af8ffea204</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4K7 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0472T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>69aadeb5-6db4-4990-b4d5-fc5719c58dab</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4K7 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0472T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>86c3a8aa-91da-4d6e-ae4f-f4bbdb64c858</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>4K7 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0472T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>f569524e-c818-4e29-a4cd-18c116301918</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>c5fea766-0f9b-4cd8-9c30-12ef34594b34</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>c537b024-c084-41cf-8d8f-076bd5fe0421</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>2K2 0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0603WAJ0222T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0603WAJ0222T5E"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>e049c45a-6bab-41b7-add0-210c728266bb</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>CS48520S</value>
+      <footprint>Package_SO:PowerIntegrations_SO-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">CS48520S,8SO</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="CS48520S,8SO"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <property name="ki_keywords" value="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>ec9c4d88-5027-4f5d-91f1-2957c9c5ee36</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>CS48520S</value>
+      <footprint>Package_SO:PowerIntegrations_SO-8</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">CS48520S,8SO</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="CS48520S,8SO"/>
+      <property name="Sheetname" value="RS485"/>
+      <property name="Sheetfile" value="RS485.kicad_sch"/>
+      <property name="ki_description" value="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <property name="ki_keywords" value="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/RS485/" tstamps="/d315af44-8e6b-42d8-8dd0-e324746629ce/"/>
+      <tstamps>d31e12c6-973b-4d71-8a52-1047f5c9a1cb</tstamps>
+    </comp>
+    <comp ref="BR1">
+      <value>MB10S</value>
+      <footprint>Aktif:MB10S</footprint>
+      <fields>
+        <field name="Tedarikçi">OZDISAN</field>
+        <field name="Tedarikçi Kodu">MB10S-HT</field>
+      </fields>
+      <libsource lib="Aktif" part="MB10S" description=""/>
+      <property name="Tedarikçi" value="OZDISAN"/>
+      <property name="Tedarikçi Kodu" value="MB10S-HT"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>a1593123-405d-45ec-bc90-a0e3215c5854</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>47uF 400V D16XH21XP7.5mm</value>
+      <footprint>Aktif:CP_Radial_D16H21P7.5mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>851c5c9b-9104-4f37-8b81-2ce05782dd42</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47uF 400V D16XH21XP7.5mm</value>
+      <footprint>Aktif:CP_Radial_D16H21P7.5mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>98999476-e818-4977-91b6-56af8efbf57b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1nF 250V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B102K251CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B102K251CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>d605cb23-f143-474a-8fc1-d727731dc33d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>6517e267-f652-4d2a-b5b3-351b45f8eec7</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF 25V 1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">CL31A226KAHNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="CL31A226KAHNNNE"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>7f890cb7-a422-4e02-9c92-dbb165f260db</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1nF 250V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B102K251CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B102K251CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>80110824-a91e-4291-913c-61906a52a0ef</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1000uF 10V ±20% </value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SPT1AM102E14ORVZC</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SPT1AM102E14ORVZC"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>75ffe64d-efa1-4cd2-9035-4ebf1f7d1640</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1000uF 10V ±20% </value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">SPT1AM102E14ORVZC</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="SPT1AM102E14ORVZC"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>9b191d0e-90a7-4b94-9dbd-f6c325fc909b</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>2200 pF ±20% 500VAC </value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P10.00mm</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">VY1222M47Y5UQ6TV0</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="VY1222M47Y5UQ6TV0"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>d8e5949d-fa80-4030-8e6d-09d7bc2efa3d</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>47uF 400V D16XH21XP7.5mm</value>
+      <footprint>Aktif:CP_Radial_D16H21P7.5mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>b62573c1-8f92-494f-a4e3-c7fe5780b6be</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>47uF 400V D16XH21XP7.5mm</value>
+      <footprint>Aktif:CP_Radial_D16H21P7.5mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>a0acb5d1-36c0-4aeb-b931-61def9d9b9f2</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007W</value>
+      <footprint>Aktif:1N4007W</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1N4007W(SOD-123FL) </field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="1N4007W(SOD-123FL) "/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>d817b73e-9b42-49b5-ac86-bed60cca7842</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>51 V 410 mW ±6%</value>
+      <footprint>Aktif:BZT52C51-7-F</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">BZT52C51-7-F(SOD-123)</field>
+      </fields>
+      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123F"/>
+      <property name="Tedarikçi Kodu" value="BZT52C51-7-F(SOD-123)"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="500mW Zener Diode, SOD-123F"/>
+      <property name="ki_keywords" value="zener diode"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>f7b5262b-8be9-44d0-813f-865afc76b332</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>51 V 410 mW ±6%</value>
+      <footprint>Aktif:BZT52C51-7-F</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">BZT52C51-7-F(SOD-123)</field>
+      </fields>
+      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123F"/>
+      <property name="Tedarikçi Kodu" value="BZT52C51-7-F(SOD-123)"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="500mW Zener Diode, SOD-123F"/>
+      <property name="ki_keywords" value="zener diode"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>c89c9e13-3049-4711-85e8-ee0b14aaa824</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">LL4148 - HOTTECH BRAND </field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="LL4148 - HOTTECH BRAND "/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>30c57a3e-9075-4b83-8dda-3f35245ce2c4</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>4.7V 500mW %6</value>
+      <footprint>Aktif:BZT52C51-7-F</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">BZT52C4V7-13-F,SOD123</field>
+      </fields>
+      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123F"/>
+      <property name="Tedarikçi Kodu" value="BZT52C4V7-13-F,SOD123"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="500mW Zener Diode, SOD-123F"/>
+      <property name="ki_keywords" value="zener diode"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>2efee26b-b615-4964-b332-4ac7734f8fec</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>60 V 10A </value>
+      <footprint>Aktif:PPS1060</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">PPS1060</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="PPS1060"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>e3c84dde-5bb4-441a-81f0-bcd9f44e8419</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>MICRO FUSE,8.4*7.7*4.0MM,350V 6.3A</value>
+      <footprint>Aktif:fuse_0697W</footprint>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">0697W6300-02</field>
+      </fields>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <property name="Tedarikçi Kodu" value="0697W6300-02"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Fuse, small symbol"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>db8fe891-c6b9-4e3d-a0ef-b57e25ede773</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>7,62MM 2 POS (KF2EDGR-7.62-2P )</value>
+      <footprint>Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">2EDGR-7.62-02P 7.62 MM 90 DGR MALE TERMINAL BLOCK 2P  MALE/FEMALE</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="2EDGR-7.62-02P 7.62 MM 90 DGR MALE TERMINAL BLOCK 2P  MALE/FEMALE"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>6ce2ea2c-1f6d-4945-b4bd-47e02da8a6cc</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>RLB0914-331KL - INDUCTOR 330uH 8.70X12mm RADIAL</value>
+      <footprint>Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">RLB0914-331KL</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Tedarikçi Kodu" value="RLB0914-331KL"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>c9a89202-1cad-42dc-81cc-0daab4b800cd</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>4u7H 3,7A %20 30mOhm</value>
+      <footprint>Aktif:SDR0805-1R5ML</footprint>
+      <fields>
+        <field name="Tedarikçi">DIGIKEY</field>
+        <field name="Tedarikçi Kodu">SDR0805-4R7ML</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Tedarikçi" value="DIGIKEY"/>
+      <property name="Tedarikçi Kodu" value="SDR0805-4R7ML"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>521fec49-5ea6-4ecd-8c03-012d6775e0a4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PNP 80 V 500 mA </value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">PMBTA56,215  Bipolar (BJT) </field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="PMBTA56,215  Bipolar (BJT) "/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="PNP transistor, base/emitter/collector"/>
+      <property name="ki_keywords" value="transistor PNP"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>9637c31e-174d-4143-9626-7b4669d1b5e0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>c030652a-428b-4216-a65e-53e4e246dcce</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>be72f8e1-c347-49e3-94ef-8352ab40429b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>7a65f446-d9d4-4c4d-840d-ee0aed15af06</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>b5e6809c-ed4c-46c8-903f-6c5320cf92de</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>200K 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0204T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0204T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>4229fa1e-7d05-4d22-8aa6-97825ccbdc1a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>47R 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0470T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0470T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>27548ce8-486e-4e6c-925e-4446b7aab877</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>3K 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0302T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0302T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>4ce295de-c887-4095-ac45-a9dcbe9f1569</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2K 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>52f337ca-8029-4948-831b-80e0a7286bbc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2K 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>eed37f77-592b-4e55-99c6-4778260d7717</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100R 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>7298b501-e739-4351-978c-207d5525ce39</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>562R 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4F5620T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4F5620T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>9300cdc4-68f5-4d0e-866e-be213999c4b0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>16R 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">0805W8J0160T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="0805W8J0160T5E"/>
+      <property name="Field6" value=""/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>e00e967f-b028-4a20-8579-34a11f52f0b7</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>19b7fb53-e09c-4c7a-8854-f0406bff7871</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>081e9889-b132-496d-a379-69db0ac29290</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>3fa0dc5b-b078-4084-9095-e06c5bf69d2f</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>5M1 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">1206W4J0515T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi Kodu" value="1206W4J0515T5E"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>f37edec4-4638-4ec0-8a31-6e69dd616a7a</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10D751K</value>
+      <footprint>Aktif:10D751K</footprint>
+      <fields>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Library">${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+        <field name="Sim.Name">kicad_builtin_varistor</field>
+        <field name="Sim.Params">threshold=1k</field>
+        <field name="Sim.Pins">1=A 2=B</field>
+      </fields>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <property name="Sim.Name" value="kicad_builtin_varistor"/>
+      <property name="Sim.Device" value="SUBCKT"/>
+      <property name="Sim.Pins" value="1=A 2=B"/>
+      <property name="Sim.Params" value="threshold=1k"/>
+      <property name="Sim.Library" value="${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Voltage dependent resistor"/>
+      <property name="ki_keywords" value="VDR resistance"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>f879aeae-8075-4a91-bf2a-889dd9185032</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>MTEE19V-162K</value>
+      <footprint>Aktif:MTEE19V-162K</footprint>
+      <libsource lib="Aktif" part="MTEE19V-162K" description=""/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>cbbb122e-cdc2-4621-90b2-d4bcd7e68ccd</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>1A 1W ±20% 2800K ±10%</value>
+      <footprint>Aktif:MF72-10D7</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">MF72 10D7</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="MF72 10D7"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>e4d56b03-431c-4e1f-9b16-c1da91a8559d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LTV-817</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
+      <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">UMW817C  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP</field>
+      </fields>
+      <libsource lib="Isolator" part="LTV-817" description="DC Optocoupler, Vce 35V, CTR 50%, DIP-4"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="UMW817C  Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, DIP-4"/>
+      <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>2674876b-8655-4118-a32f-4ba8153a078b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LNK3696P</value>
+      <footprint>Package_DIP:PowerIntegrations_PDIP-8C</footprint>
+      <libsource lib="Regulator_Switching" part="LNK3206D" description="LinkSwitch-TN2 Family, 360mA Output Current, SO-8C"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="LinkSwitch-TN2 Family, 360mA Output Current, SO-8C"/>
+      <property name="ki_keywords" value="Lowest Component Count, Energy-Efficient Off-Line Switcher IC"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>b355251c-1689-4903-8bdc-f12dd43cfc0d</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LNK3696G-TL</value>
+      <footprint>Package_DIP:PowerIntegrations_SMD-8C</footprint>
+      <libsource lib="Regulator_Switching" part="LNK3206D" description="LinkSwitch-TN2 Family, 360mA Output Current, SO-8C"/>
+      <property name="Sheetname" value="SMPS"/>
+      <property name="Sheetfile" value="SMPS.kicad_sch"/>
+      <property name="ki_description" value="LinkSwitch-TN2 Family, 360mA Output Current, SO-8C"/>
+      <property name="ki_keywords" value="Lowest Component Count, Energy-Efficient Off-Line Switcher IC"/>
+      <sheetpath names="/SMPS/" tstamps="/7f1538ec-fe75-4d7c-b2c0-ce16c191db7c/"/>
+      <tstamps>6364b5f5-4f6c-44a8-88ab-abc55974351a</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF 6.3V CASE-B 3528 </value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">T491B107K006AT</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="T491B107K006AT"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>91433fc5-d1f9-458d-90a6-30b65849ead2</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF 6.3V X5R ±10% 0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">CL10A475KQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="CL10A475KQ8NNNC"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>4374dbaf-f27f-49ad-a087-0a6e7fc270fa</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>14de03d1-82ef-4828-81ee-388555188d48</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>cf4efb9e-c9f6-45a9-b204-3d18852fe971</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>Super Cap 5.4V 5F</value>
+      <footprint>Aktif:DRML5R4505</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>4719f24a-d8aa-431b-9790-73b4d8768ffd</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100uF 6.3V CASE-B 3528 </value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T</footprint>
+      <fields>
+        <field name="Tedarikçi">FIETRA</field>
+        <field name="Tedarikçi Kodu">T491B107K006AT</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Tedarikçi" value="FIETRA"/>
+      <property name="Tedarikçi Kodu" value="T491B107K006AT"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>fd1443e3-b97b-45b1-a9b5-3f25254a35d5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>11dfb8bd-2496-4511-badb-fc017c1bb309</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF X7R 0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">KOEL</field>
+        <field name="Tedarikçi Kodu">0805B104K100CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value="0805B104K100CT"/>
+      <property name="Tedarikçi" value="KOEL"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>3c916977-9f1b-4a6f-aaaa-8a249d913def</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100pF 0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>ffbd7aac-5fe6-40cc-b395-52c8170ae6e0</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22uF 10V %10 1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>a25be07a-48c9-4744-968f-667d0f1aeb2f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>22uF 10V %10 1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>6edc9611-ba85-47f5-a043-e79b4b0825a4</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>40V 3A SMA </value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">SS34,SMA </field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="SS34,SMA "/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>9ff06292-221c-44f7-b82c-0ccae3614a56</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>40V 3A SMA </value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Tedarikçi">10K</field>
+        <field name="Tedarikçi Kodu">SS34,SMA </field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Tedarikçi" value="10K"/>
+      <property name="Tedarikçi Kodu" value="SS34,SMA "/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>188f8fb8-194f-4701-a6e1-390236a0c2c1</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>4u7H 3,7A %20 30mOhm</value>
+      <footprint>Aktif:SDR0805-1R5ML</footprint>
+      <fields>
+        <field name="Tedarikçi">DIGIKEY</field>
+        <field name="Tedarikçi Kodu">SDR0805-4R7ML</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Tedarikçi" value="DIGIKEY"/>
+      <property name="Tedarikçi Kodu" value="SDR0805-4R7ML"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>220e9fd8-0d24-421b-85db-151bd6989ddb</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1W 22R 2512</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">FRC2512J220 TS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="FRC2512J220 TS"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>018dfef3-a158-425e-8234-31f6a25dc672</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>113K 0603 %1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>1333dc82-4f56-4484-9259-3c88862f99c5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>30K1 0603 %1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>44a0ce9a-27a2-4f96-b41a-d3eb4f8175fe</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP63300/AP63301</value>
+      <footprint>Aktif:AP63300</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">AP63300WU-7</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="AP63200WU" description="2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="AP63300WU-7"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>3503ae20-d68a-4c80-9c87-7868f19c4294</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LD1117S33TR_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">LD1117AG-33-AA3-A-R</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="LD1117AG-33-AA3-A-R"/>
+      <property name="Sheetname" value="Regulators"/>
+      <property name="Sheetfile" value="regulators.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="ki_keywords" value="REGULATOR LDO 3.3V"/>
+      <sheetpath names="/Regulators/" tstamps="/703919d9-5910-4612-ac80-2ffcd384f426/"/>
+      <tstamps>db52aa35-9d27-4ff1-8d7a-f040e21e2c2a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JL15EDGRC-38104G01 Pitch:3.81mm 4 pins</value>
+      <footprint>enguru_28082018:15EDGVC-3.81-04P-14-00SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>f10ca980-c272-48e4-98ff-9609e7e9d6b3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K 500mW 2010</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>39572b29-6923-45a7-85cf-a2c5ad64765c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K 500mW 2010</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>5436d087-e092-41f2-90d7-49d640af471b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K 500mW 2010</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Tedarikçi" value=""/>
+      <property name="Tedarikçi Kodu" value=""/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>d1e42263-3aa3-46f6-9052-3d554dce5534</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>EL0631(TA)</value>
+      <footprint>Aktif:EL0631(TA)</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">EL0631(TA)</field>
+      </fields>
+      <libsource lib="Aktif" part="EL0631(TA)" description=""/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="EL0631(TA)"/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>cd249e2c-80be-4ce2-aeb0-ec402baafd1a</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>EL0631(TA)</value>
+      <footprint>Aktif:EL0631(TA)</footprint>
+      <fields>
+        <field name="Tedarikçi">LSCS</field>
+        <field name="Tedarikçi Kodu">EL0631(TA)</field>
+      </fields>
+      <libsource lib="Aktif" part="EL0631(TA)" description=""/>
+      <property name="Tedarikçi" value="LSCS"/>
+      <property name="Tedarikçi Kodu" value="EL0631(TA)"/>
+      <property name="Sheetname" value="Inputs-outputs"/>
+      <property name="Sheetfile" value="inputs.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Inputs-outputs/" tstamps="/d09cad0c-d965-4983-b3f2-994404fb60e7/"/>
+      <tstamps>64bd6ed3-af57-46a0-8eda-c4e20e26b7d4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Aktif" part="BLU4GP_Board">
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">BLU4GP_Board</field>
+        <field name="Footprint">Aktif:BLULC-Power</field>
+      </fields>
+    </libpart>
+    <libpart lib="Aktif" part="EL0631(TA)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EL0631(TA)</field>
+        <field name="Footprint">Aktif:EL0631(TA)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aktif" part="MB10S">
+      <fields>
+        <field name="Reference">BR</field>
+        <field name="Value">MB10S</field>
+        <field name="Footprint">Aktif:MB10S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Aktif" part="MTEE19V-162K">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">MTEE19V-162K</field>
+        <field name="Footprint">Aktif:MTEE19V-162K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BEC">
+      <description>PNP transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Name">kicad_builtin_varistor</field>
+        <field name="Sim.Device">SUBCKT</field>
+        <field name="Sim.Pins">1=A 2=B</field>
+        <field name="Sim.Params">threshold=1k</field>
+        <field name="Sim.Library">${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BZT52Bxx">
+      <description>500mW Zener Diode, SOD-123F</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?123F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZT52Bxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="LL4148">
+      <description>100V 0.15A standard switching diode, MiniMELF</description>
+      <docs>http://www.vishay.com/docs/85557/ll4148.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LL4148</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85557/ll4148.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SM712_SOT23">
+      <description>7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="common" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX485E">
+      <description>Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX485E</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="LTV-817">
+      <description>DC Optocoupler, Vce 35V, CTR 50%, DIP-4</description>
+      <docs>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AP63200WU">
+      <description>2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63200WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LNK3206D">
+      <description>LinkSwitch-TN2 Family, 360mA Output Current, SO-8C</description>
+      <docs>https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf</docs>
+      <footprints>
+        <fp>PowerIntegrations?SO?8C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LNK3206D</field>
+        <field name="Footprint">Package_SO:PowerIntegrations_SO-8C</field>
+        <field name="Datasheet">https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BP/M" type="input"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="4" name="D" type="open_collector"/>
+        <pin num="5" name="S" type="power_in"/>
+        <pin num="6" name="S" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+        <pin num="8" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G5LE-1">
+      <description>Omron G5LE relay, Miniature Single Pole, SPDT, 10A</description>
+      <docs>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Omron*G5LE?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5LE-1</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron-G5LE-1</field>
+        <field name="Datasheet">http://www.omron.com/ecb/products/pdf/en-g5le.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_UART.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U5" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="8" pintype="input"/>
+    </net>
+    <net code="2" name="+5P">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="K2" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/CONNECTION-COM/DIGITAL-IN-1">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="6" pintype="input"/>
+    </net>
+    <net code="6" name="/CONNECTION-COM/DIGITAL-IN-3">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="7" pintype="input"/>
+    </net>
+    <net code="7" name="/CONNECTION-COM/DIGITAL-IN-5">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="7" pintype="input"/>
+    </net>
+    <net code="8" name="/CONNECTION-COM/POWER_DET">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/CONNECTION-COM/ROLE-1">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="10" name="/CONNECTION-COM/ROLE-2">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="K2" pin="5" pintype="passive"/>
+    </net>
+    <net code="11" name="/CONNECTION-COM/RS485-1-DIR">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U11" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="12" name="/CONNECTION-COM/RS485-1-RXD">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="13" name="/CONNECTION-COM/RS485-1-TXD">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="14" name="/CONNECTION-COM/RS485-2-DIR">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U12" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="15" name="/CONNECTION-COM/RS485-2-RXD">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="16" name="/CONNECTION-COM/RS485-2-TXD">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="21" name="/Inputs-outputs/D-IN-1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/Inputs-outputs/D-IN-3">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/Inputs-outputs/D-IN-5">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/Inputs-outputs/D-IN-COMM">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="27" name="/RS485/RS485-1-A">
+      <node ref="D12" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/RS485/RS485-1-B">
+      <node ref="D12" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="/RS485/RS485-2-A">
+      <node ref="D18" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="FB4" pin="2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="30" name="/RS485/RS485-2-B">
+      <node ref="D18" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="FB3" pin="2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="31" name="/Relays/K1-COM">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/Relays/K1-NO">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+    <net code="33" name="/Relays/K2-COM">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/Relays/K2-NO">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K2" pin="3" pintype="passive"/>
+    </net>
+    <net code="35" name="/SMPS/MPWR_1">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="36" name="/SMPS/MPWR_2">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/SMPS/u4_1">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="BP/M" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="BP/M" pintype="input"/>
+    </net>
+    <net code="38" name="/SMPS/u4_2">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="FB" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="39" name="/SMPS/u4_4">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="D" pintype="open_collector"/>
+      <node ref="U7" pin="4" pinfunction="D" pintype="open_collector"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D12" pin="3" pinfunction="common" pintype="input"/>
+      <node ref="D18" pin="3" pinfunction="common" pintype="input"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="T1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="5" pintype="input"/>
+    </net>
+    <net code="41" name="GNDA">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="S" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="S" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="S" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="S" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="S" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="S" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="S" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(BR1-+)">
+      <node ref="BR1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(BR1--)">
+      <node ref="BR1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(BR1-Pad3)">
+      <node ref="BR1" pin="3" pintype="passive"/>
+      <node ref="RV1" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(BR1-Pad4)">
+      <node ref="BR1" pin="4" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D5-K)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D6-A)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="T1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D8-A)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="4" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(U1-BST)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(U1-FB)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(U1-SW)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(U11-A)">
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(U11-B)">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(U12-A)">
+      <node ref="FB4" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="Net-(U12-B)">
+      <node ref="FB3" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(K1-Pad4)">
+      <node ref="K1" pin="4" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(K2-Pad4)">
+      <node ref="K2" pin="4" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="3" pintype="input"/>
+    </net>
+    <net code="79" name="unconnected-(U6-Pad4)">
+      <node ref="U6" pin="4" pinfunction="4" pintype="input"/>
+    </net>
+    <net code="80" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pinfunction="6" pintype="input"/>
+    </net>
+  </nets>
+</export>
