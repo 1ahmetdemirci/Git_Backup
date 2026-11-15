@@ -52,8 +52,54 @@
 		)
 	)
 	(sheet
-		(at 120.904 21.59)
-		(size 27.432 26.162)
+		(at 90.678 55.88)
+		(size 27.178 26.416)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "463a44cd-96d3-489f-8616-1eb76e564fcc")
+		(property "Sheetname" "GSM"
+			(at 90.678 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GSM.kicad_sch"
+			(at 90.678 82.8806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.126 21.59)
+		(size 26.924 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +114,7 @@
 		)
 		(uuid "6c712d60-558a-4fed-aafb-66ba7d3a2282")
 		(property "Sheetname" "Temperature_And_CO2"
-			(at 120.904 20.8784 0)
+			(at 119.126 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "Temperature_And_CO2.kicad_sch"
-			(at 120.904 48.3366 0)
+			(at 119.126 48.3366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 88.646 21.59)
-		(size 26.924 26.162)
+		(at 88.138 21.59)
+		(size 27.432 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +160,7 @@
 		)
 		(uuid "72087b7e-918e-49a2-b236-c2715ecc8de8")
 		(property "Sheetname" "ETHERNET"
-			(at 88.646 20.8784 0)
+			(at 88.138 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "ETHERNET.kicad_sch"
-			(at 88.646 48.3366 0)
+			(at 88.138 48.3366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +190,54 @@
 		)
 	)
 	(sheet
-		(at 58.928 21.59)
-		(size 25.654 26.162)
+		(at 58.674 55.88)
+		(size 26.67 26.162)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a78edd9a-2e67-415a-967b-bd100d64b996")
+		(property "Sheetname" "Isolated_Relay"
+			(at 58.674 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_Relay.kicad_sch"
+			(at 58.674 82.6266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.166 21.59)
+		(size 26.416 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +252,7 @@
 		)
 		(uuid "a9cd570d-dbcd-46d1-9afc-2de8c61de601")
 		(property "Sheetname" "MCU"
-			(at 58.928 20.8784 0)
+			(at 58.166 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 58.928 48.3366 0)
+			(at 58.166 48.3366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,8 +282,8 @@
 		)
 	)
 	(sheet
-		(at 158.496 21.844)
-		(size 30.734 26.416)
+		(at 26.162 55.372)
+		(size 27.686 26.416)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +298,7 @@
 		)
 		(uuid "dad75c8d-d691-4f61-b47a-68278cae080f")
 		(property "Sheetname" "RS485"
-			(at 158.496 21.1324 0)
+			(at 26.162 54.6604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +309,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 158.496 48.8446 0)
+			(at 26.162 82.3726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

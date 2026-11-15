@@ -653,7 +653,7 @@
         "uuid": "5eb8dd21-6964-4609-962a-6987dfc89ab7"
       }
     ],
-    "used_designators": "#PWR1-109,BT1,C1-49,D1-3,FB1-2,FL1,J1-3,J14-27,L1-4,R1-34,R42-56,U1-11,Y1-3",
+    "used_designators": "#PWR1-145,#PWR161,BT1,C1-65,D1-5,FB1-2,FL1,J1-5,J14-27,K1-2,L1-4,M1,Q1-5,R1-56,U1-16,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,14 @@
     [
       "dad75c8d-d691-4f61-b47a-68278cae080f",
       "RS485"
+    ],
+    [
+      "a78edd9a-2e67-415a-967b-bd100d64b996",
+      "Isolated_Relay"
+    ],
+    [
+      "463a44cd-96d3-489f-8616-1eb76e564fcc",
+      "GSM"
     ]
   ],
   "text_variables": {},
