@@ -3118,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SCD40-D-R2:XDCR_SCD40-D-R2"
+		(property "Footprint" "pcb:SCD40-D-R2"
 			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3143,90 +3143,6 @@
 			)
 		)
 		(property "Description" "Air Quality Sensor CO2 Sensor 2.5V/3.3V/5V 20-Pin SMD EP"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SCD40-D-R2_Sensirion_AG.pdf"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Sensirion AG"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.8mm"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "SCD40-D-R2"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/SCD40-D-R2/Sensirion/view-part/"
-			(at 203.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
 			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3982,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "U_SHT3_SEN"
+		(property "Footprint" "pcb:SHT31-DIS-B2.5KS"
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3994,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SHT31-DIS-B2.5KS"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/SHT3x-DIS.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D\"SHT3x-DIS.pdf\""
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR HUMIDITY/TEMP 5V I2C 2% SMD"
 			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)

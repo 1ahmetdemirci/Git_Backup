@@ -688,6 +688,10 @@
     [
       "6c712d60-558a-4fed-aafb-66ba7d3a2282",
       "Temperature_And_CO2"
+    ],
+    [
+      "b8731b86-ad63-478d-8725-f2f56c91510b",
+      "Isolated_IN_OUT"
     ]
   ],
   "text_variables": {},

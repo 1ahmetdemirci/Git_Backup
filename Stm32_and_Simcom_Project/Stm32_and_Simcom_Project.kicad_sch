@@ -282,6 +282,52 @@
 		)
 	)
 	(sheet
+		(at 125.476 55.88)
+		(size 27.432 26.416)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8731b86-ad63-478d-8725-f2f56c91510b")
+		(property "Sheetname" "Isolated_IN_OUT"
+			(at 125.476 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_IN_OUT.kicad_sch"
+			(at 125.476 82.8806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.162 55.372)
 		(size 27.686 26.416)
 		(exclude_from_sim no)
