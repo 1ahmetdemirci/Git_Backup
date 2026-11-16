@@ -7307,7 +7307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "011b77a6-5f03-4970-a725-dbf198ed7760")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR094"
 			(at 137.16 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7366,7 +7366,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR064")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04930232-a77e-4a06-b54a-5f55e5ba184b")
-		(property "Reference" "R21"
+		(property "Reference" "R38"
 			(at 215.9 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7444,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R21")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7461,7 +7461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07e6a93a-36b0-4e97-b22e-3f46c2bbe91d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR077"
 			(at 40.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7520,7 +7520,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR047")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7537,7 +7537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "084f8230-e49f-4288-a79b-6eed1d9db873")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR075"
 			(at 17.78 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7596,7 +7596,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR045")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7613,7 +7613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0936890d-4822-4b97-afde-93bed65ce0b3")
-		(property "Reference" "R17"
+		(property "Reference" "R34"
 			(at 184.15 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +7674,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R17")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7691,7 +7691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fedc977-8f22-4a78-a5ed-d408187268d5")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR093"
 			(at 132.715 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR063")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -7767,7 +7767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "100af318-076d-4093-b6f6-fc2e17a34d74")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR098"
 			(at 153.035 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7826,7 +7826,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR068")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "197dad7e-3298-4325-ba54-5150adf5c664")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR088"
 			(at 103.505 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -7902,7 +7902,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR057")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7919,7 +7919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a34347e-8ff3-4dc5-86da-63b3fd5fde04")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0101"
 			(at 180.975 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -7978,7 +7978,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR071")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7995,7 +7995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bbde5aa-7508-4b9b-b105-9f343df2f2d4")
-		(property "Reference" "C39"
+		(property "Reference" "C51"
 			(at 154.305 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +8058,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C39")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -8075,7 +8075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cb2c813-de87-4e2d-9506-eaac690dd608")
-		(property "Reference" "R15"
+		(property "Reference" "R32"
 			(at 143.51 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R15")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21cdc069-3797-4ccd-a063-4c6d3ac16b4a")
-		(property "Reference" "C42"
+		(property "Reference" "C54"
 			(at 187.96 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8216,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C42")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8233,7 +8233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2eebbacb-856a-45f7-b19b-d1ea4f43fa5e")
-		(property "Reference" "R13"
+		(property "Reference" "R30"
 			(at 45.72 70.485 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8294,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R13")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8311,7 +8311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f88c52b-7c5f-4cdb-b5e2-e2ca19ced1dc")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0106"
 			(at 233.68 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8370,7 +8370,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR076")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8387,7 +8387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3110ed1e-9883-40bf-9342-c6e7475ae20c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR091"
 			(at 121.92 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8446,7 +8446,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR061")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -8463,7 +8463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "365f8e43-168e-40a2-8d88-8970aebb7c03")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR099"
 			(at 159.385 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -8522,7 +8522,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR069")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b25658-874e-4bc5-a510-ca81e5f4528a")
-		(property "Reference" "C45"
+		(property "Reference" "C57"
 			(at 229.235 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8602,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C45")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -8619,7 +8619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d52b493-a22b-486d-85d4-3989b38f754c")
-		(property "Reference" "C43"
+		(property "Reference" "C55"
 			(at 187.96 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8682,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C43")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -8699,7 +8699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f8afe7d-73c0-4305-8058-4c8ac5c48c54")
-		(property "Reference" "R22"
+		(property "Reference" "R39"
 			(at 222.25 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,7 +8760,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R22")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8777,7 +8777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43844a2b-2312-4afa-b409-6ea0aea19351")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0103"
 			(at 207.01 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -8836,7 +8836,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR073")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8853,7 +8853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d23e31-2729-44a0-8e9b-6e29d3274682")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR090"
 			(at 118.745 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8912,7 +8912,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR060")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -8929,7 +8929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45b80431-674f-40c4-9c12-678ce4208ac8")
-		(property "Reference" "C31"
+		(property "Reference" "C43"
 			(at 92.075 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +8992,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C31")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9009,7 +9009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "523176f8-263c-480a-ace4-6106b518c024")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0105"
 			(at 222.25 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +9068,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR075")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -9085,7 +9085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55b66aef-72f8-4d24-98a9-9c622e911763")
-		(property "Reference" "R16"
+		(property "Reference" "R33"
 			(at 177.8 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9146,7 +9146,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R16")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9163,7 +9163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56494795-5b6f-404e-adb1-b727e5725ab7")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR087"
 			(at 102.87 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9222,7 +9222,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR058")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bc56dfd-6a4b-4666-b3a0-8ef567befc5f")
-		(property "Reference" "C28"
+		(property "Reference" "C40"
 			(at 32.512 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,7 +9302,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C28")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9319,7 +9319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64e782d4-2e82-46bb-9933-bd3561bdca52")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR081"
 			(at 50.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9378,7 +9378,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR051")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -9480,7 +9480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f46e450-eeed-4106-b1cf-1017a2a18669")
-		(property "Reference" "R12"
+		(property "Reference" "R29"
 			(at 43.18 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9541,7 +9541,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R12")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9558,7 +9558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "714f3f53-1519-4682-bc57-2a20d02a719a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR092"
 			(at 125.73 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9617,7 +9617,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR062")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -9634,7 +9634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab7015d-c421-4604-8836-ba0d71361ba9")
-		(property "Reference" "C37"
+		(property "Reference" "C49"
 			(at 140.335 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9697,7 +9697,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C37")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -9714,7 +9714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e42d0fb-b0db-4fa2-b4ef-f4d71d35c531")
-		(property "Reference" "C32"
+		(property "Reference" "C44"
 			(at 120.015 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,7 +9777,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C32")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -9794,7 +9794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ec655f0-0f23-4842-bdb1-94ebd4233c6f")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0107"
 			(at 233.68 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9853,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR077")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f9b6346-2da9-49db-a27f-acf828aa45d9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR076"
 			(at 36.83 132.715 0)
 			(hide yes)
 			(show_name no)
@@ -9929,7 +9929,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR046")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9946,7 +9946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "801bae2b-fe1c-47d3-94c3-239583c8464e")
-		(property "Reference" "C33"
+		(property "Reference" "C45"
 			(at 125.73 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10009,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C33")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -10026,7 +10026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8177de20-5242-457d-96f4-504885d28e31")
-		(property "Reference" "C29"
+		(property "Reference" "C41"
 			(at 55.372 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10089,7 +10089,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C29")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10106,7 +10106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bcf924f-7e62-4140-a41e-d3627ed2e568")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR078"
 			(at 43.18 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10165,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR048")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -10182,7 +10182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fac913d-6893-4b50-a068-f48e76fb3c09")
-		(property "Reference" "C44"
+		(property "Reference" "C56"
 			(at 213.995 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10243,7 +10243,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C44")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -10260,7 +10260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91a0cd8b-1983-4ef6-ab6a-09f139a2a1df")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR085"
 			(at 87.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10319,7 +10319,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR055")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10336,7 +10336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91e94ec5-f557-4858-a213-e11b3636b0c2")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0100"
 			(at 159.385 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10395,7 +10395,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR070")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -10412,7 +10412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "959b223e-cd8e-4241-92cd-68194c739e1e")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 274.828 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10506,7 +10506,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -10523,7 +10523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b0ae656-9b59-489d-8b7a-2b75d3a88732")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR089"
 			(at 116.205 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -10582,7 +10582,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR059")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -10599,7 +10599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0461ae-f070-4874-8071-7f3fd2f7fad8")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0102"
 			(at 190.5 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10658,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR072")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10675,7 +10675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0b928b-d577-47c1-a3e9-fc805ffc0698")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR082"
 			(at 50.8 132.715 0)
 			(hide yes)
 			(show_name no)
@@ -10734,7 +10734,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR052")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -10751,7 +10751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f3672c3-1f7a-4063-8ae7-0af7052feb16")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR086"
 			(at 97.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10810,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR056")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -10827,7 +10827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0a79e6d-cde1-4c2d-a41b-ddc6134a0f36")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR097"
 			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10886,7 +10886,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR067")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -10903,7 +10903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a129a1a8-d646-412b-a2d5-30da3078b3b1")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0108"
 			(at 240.665 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -10962,7 +10962,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR078")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10979,7 +10979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c92a34-8262-4d4d-a26f-91f52c798c2c")
-		(property "Reference" "FB1"
+		(property "Reference" "FB2"
 			(at 109.22 26.035 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11040,7 +11040,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -11057,7 +11057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a528dc0c-2c74-4f76-a488-4c1bd793ad57")
-		(property "Reference" "R10"
+		(property "Reference" "R27"
 			(at 34.29 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11118,7 +11118,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R10")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11135,7 +11135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5b86400-5fdf-414c-a359-1636bd935c4c")
-		(property "Reference" "C41"
+		(property "Reference" "C53"
 			(at 177.165 35.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,7 +11198,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C41")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -11215,7 +11215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8fb3c4f-3c22-4949-b67b-34f99253dac9")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 105.0133 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11417,7 +11417,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -11434,7 +11434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a98f8a8a-714b-4b65-822b-7beed338a089")
-		(property "Reference" "R8"
+		(property "Reference" "R25"
 			(at 34.29 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +11495,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R8")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11512,7 +11512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9a7abe1-c308-4229-9003-3fdc33f8c074")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR080"
 			(at 45.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11571,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR050")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -11588,7 +11588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae088231-0201-4a0b-98c9-3c098c1f4df7")
-		(property "Reference" "R19"
+		(property "Reference" "R36"
 			(at 214.63 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11649,7 +11649,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R19")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11666,7 +11666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af81dc88-474b-40df-96fe-c8689665b96d")
-		(property "Reference" "C38"
+		(property "Reference" "C50"
 			(at 147.32 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11729,7 +11729,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C38")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -11746,7 +11746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b16f0bcc-c3e3-4d69-83c2-8a0252dafcbd")
-		(property "Reference" "R14"
+		(property "Reference" "R31"
 			(at 50.8 70.485 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11807,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R14")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -11824,7 +11824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3bc4e96-8672-4788-a0b1-f230051ee8ed")
-		(property "Reference" "C34"
+		(property "Reference" "C46"
 			(at 127 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11887,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C34")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -11904,7 +11904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b80a258f-8eff-4994-9004-3d1bd31d2226")
-		(property "Reference" "C30"
+		(property "Reference" "C42"
 			(at 77.47 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11967,7 +11967,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C30")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -11984,7 +11984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8fb92ce-5f46-4482-94c8-583d5ea2bd0d")
-		(property "Reference" "R9"
+		(property "Reference" "R26"
 			(at 34.29 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12045,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R9")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12062,7 +12062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4626264-aab7-41f2-8967-3855a795f98a")
-		(property "Reference" "R11"
+		(property "Reference" "R28"
 			(at 40.64 70.485 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12123,7 +12123,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R11")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12140,7 +12140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd22c147-82d7-48d5-8fcf-f298d6f1a24b")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR096"
 			(at 143.51 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12199,7 +12199,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR066")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -12216,7 +12216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cedd96f4-d5b6-449b-8edc-812173fe610b")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR083"
 			(at 79.375 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12275,7 +12275,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR053")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -12292,7 +12292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4127fb6-ab12-47bd-ab27-11b105c1642a")
-		(property "Reference" "C35"
+		(property "Reference" "C47"
 			(at 133.985 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12355,7 +12355,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C35")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -12372,7 +12372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d42bd3d7-0d45-4a72-8ee2-109fae00397e")
-		(property "Reference" "R18"
+		(property "Reference" "R35"
 			(at 207.01 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12433,7 +12433,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R18")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12450,7 +12450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d79ffc5e-935b-485f-9e99-a5fdca1d740f")
-		(property "Reference" "C36"
+		(property "Reference" "C48"
 			(at 140.97 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12513,7 +12513,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C36")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -12530,7 +12530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dabac972-6134-41b5-99b6-b4777ae1df9d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR079"
 			(at 43.18 123.825 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12589,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR049")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -12606,7 +12606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfef0904-b228-4de1-9c3b-95a47eb2be30")
-		(property "Reference" "C40"
+		(property "Reference" "C52"
 			(at 161.29 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12669,7 +12669,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "C40")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -12686,7 +12686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e07c5c73-8f66-407d-986a-b213d99691df")
-		(property "Reference" "R20"
+		(property "Reference" "R37"
 			(at 215.9 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12747,7 +12747,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "R20")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12764,7 +12764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3a465ad-e34b-4ed4-bcb9-eb2c98047656")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR084"
 			(at 79.375 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12823,7 +12823,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR054")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -12840,7 +12840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd176dc1-5f91-42ad-bdb8-b38ae6ba1782")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR095"
 			(at 139.065 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12899,7 +12899,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR065")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -12916,7 +12916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fffe0f86-247f-4f2f-b0f9-bfe1c37ab613")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0104"
 			(at 214.63 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -12975,7 +12975,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/72087b7e-918e-49a2-b236-c2715ecc8de8"
-					(reference "#PWR074")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
