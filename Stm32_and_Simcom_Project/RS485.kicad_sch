@@ -1430,6 +1430,16 @@
 		)
 		(uuid "628578e8-ebb4-4775-9bcd-6a083059a505")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 83.312 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4523098-1fb4-4ae9-b2db-98855188eae9")
+	)
 	(junction
 		(at 101.6 90.17)
 		(diameter 0)
@@ -2520,7 +2530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:SN65HVD10DR"
 			(at 123.19 113.03 0)
 			(hide yes)
 			(show_name no)

@@ -2274,6 +2274,16 @@
 		)
 		(uuid "b2a581cc-4e26-4682-bdd1-1e93eba99f8e")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 169.164 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26a2ce2a-15d0-4332-a89c-fc83467f34cd")
+	)
 	(text "Relay 2"
 		(exclude_from_sim no)
 		(at 155.448 73.152 0)
@@ -2293,6 +2303,26 @@
 			)
 		)
 		(uuid "7804fe60-70bc-4887-9880-e4f7a093eb9d")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 55.372 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca29abe8-e6e8-4ce2-bbf6-7edabcb2c1ce")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 160.528 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc6fc9c5-7a11-41d4-bfd9-54e0eabce321")
 	)
 	(text "Relay 1"
 		(exclude_from_sim no)
@@ -3051,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALDP105W:RELAY_ALDP105W"
+		(property "Footprint" "pcb:RELAY_ALDP105W"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3063,7 +3093,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/LD-P-seri-2022.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D\"LD-P-seri-2022.pdf\""
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3075,67 +3105,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil Through Hole"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic Electric"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "ALDP105W"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/ALDP105W/Panasonic/view-part/"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDART" "Manufacturer Recommendations"
+		(property "Description" "RELAY POWER SLIM 5A 5VDC SPST-NO (1 Form A) THT 4 Pin"
 			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3278,7 +3248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:TLP187_TPL_E"
 			(at 181.61 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3290,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP187_datasheet_en_20260727.pdf?did=13690&prodName=TLP187"
 			(at 179.832 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3302,7 +3272,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPTOISOLTR 3.75KV 1CH DARL 6-SOP"
 			(at 181.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3797,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:B0505S1WR3"
 			(at 118.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4373,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:TLP187_TPL_E"
 			(at 76.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4385,7 +4355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TLP187_datasheet_en_20260727.pdf?did=13690&prodName=TLP187"
 			(at 74.422 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4367,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPTOISOLTR 3.75KV 1CH DARL 6-SOP"
 			(at 76.2 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4571,7 +4541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ALDP105W:RELAY_ALDP105W"
+		(property "Footprint" "pcb:RELAY_ALDP105W"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4553,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf"
+		(property "Datasheet" "https://cdn.ozdisan.com/public/product/assets/LD-P-seri-2022.pdf?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D\"LD-P-seri-2022.pdf\""
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4595,67 +4565,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil Through Hole"
-			(at 228.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf"
-			(at 228.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic Electric"
-			(at 228.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "ALDP105W"
-			(at 228.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/ALDP105W/Panasonic/view-part/"
-			(at 228.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDART" "Manufacturer Recommendations"
+		(property "Description" "RELAY POWER SLIM 5A 5VDC SPST-NO (1 Form A) THT 4 Pin"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)

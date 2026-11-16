@@ -2919,6 +2919,46 @@
 		)
 		(uuid "c559054b-02d4-41ab-a169-17cabdc7c67e")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 18.288 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d5d4429-ce45-4e12-8baa-37c407d7b766")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 17.272 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7892add7-5272-4ac7-a777-b27d31af4d4a")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 207.01 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83d529ab-bb59-4000-b9aa-b7ad25683b51")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 17.272 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddc67574-d3c9-4472-a08e-552cec092acf")
+	)
 	(text_box "USB - mini B USB 2.0"
 		(exclude_from_sim no)
 		(at 129.032 17.78 0)
@@ -5789,7 +5829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcb:690-005-299-043_EDA"
+		(property "Footprint" "pcb:690-005-299-043"
 			(at 140.97 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7867,7 +7907,7 @@
 			)
 		)
 		(property "Value" "10R/0603"
-			(at 186.182 55.118 90)
+			(at 185.674 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8184,7 +8224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:FIL_DLW21SZ900HQ2L"
 			(at 185.42 40.64 0)
 			(hide yes)
 			(show_name no)

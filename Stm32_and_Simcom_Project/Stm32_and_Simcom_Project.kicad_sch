@@ -92,7 +92,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
-					(page "8")
+					(page "4")
 				)
 			)
 		)
@@ -138,7 +138,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
-					(page "5")
+					(page "8")
 				)
 			)
 		)
@@ -184,7 +184,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
-					(page "4")
+					(page "5")
 				)
 			)
 		)

@@ -3081,6 +3081,36 @@
 		)
 		(uuid "68898e46-b430-4782-85bc-b15ace3b04df")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 43.18 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fc6926e-cac8-4420-870d-664b64627fa5")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 43.434 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "105f874f-ff98-4441-86b3-8b0de345855a")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 174.752 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "195a8160-ae03-490d-ad43-635b48fc8dcc")
+	)
 	(text "8Mhz Crystal"
 		(exclude_from_sim no)
 		(at 24.638 64.262 0)
@@ -4774,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcb:BC2032-E2"
 			(at 186.69 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -5294,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP48_STM"
+		(property "Footprint" "pcb:LQFP48_STM"
 			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5995,7 +6025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hcixtal.com/uploads/44524/files/0132M4.pdf"
 			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6006,8 +6036,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 8MHZ 18PF SMD"
 			(at 30.48 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
