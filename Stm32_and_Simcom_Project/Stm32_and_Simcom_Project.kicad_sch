@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 26.162 21.59)
+		(at 94.234 56.134)
 		(size 27.686 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "06cdabb3-4b7b-4848-9fd9-af8e14286599")
 		(property "Sheetname" "Power_And_USB"
-			(at 26.162 20.8784 0)
+			(at 94.234 55.4224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_And_USB.kicad_sch"
-			(at 26.162 48.3366 0)
+			(at 94.234 82.8806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 90.678 55.88)
+		(at 166.37 23.114)
 		(size 27.178 26.416)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "463a44cd-96d3-489f-8616-1eb76e564fcc")
 		(property "Sheetname" "GSM"
-			(at 90.678 55.1684 0)
+			(at 166.37 22.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "GSM.kicad_sch"
-			(at 90.678 82.8806 0)
+			(at 166.37 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 119.126 21.59)
-		(size 26.924 26.162)
+		(at 94.488 89.916)
+		(size 27.432 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "6c712d60-558a-4fed-aafb-66ba7d3a2282")
 		(property "Sheetname" "Temperature_And_CO2"
-			(at 119.126 20.8784 0)
+			(at 94.488 89.2044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "Temperature_And_CO2.kicad_sch"
-			(at 119.126 48.3366 0)
+			(at 94.488 116.6626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 88.138 21.59)
+		(at 166.116 54.864)
 		(size 27.432 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "72087b7e-918e-49a2-b236-c2715ecc8de8")
 		(property "Sheetname" "ETHERNET"
-			(at 88.138 20.8784 0)
+			(at 166.116 54.1524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "ETHERNET.kicad_sch"
-			(at 88.138 48.3366 0)
+			(at 166.116 81.6106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,8 +190,8 @@
 		)
 	)
 	(sheet
-		(at 58.674 55.88)
-		(size 26.67 26.162)
+		(at 93.98 22.86)
+		(size 28.448 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "a78edd9a-2e67-415a-967b-bd100d64b996")
 		(property "Sheetname" "Isolated_Relay"
-			(at 58.674 55.1684 0)
+			(at 93.98 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolated_Relay.kicad_sch"
-			(at 58.674 82.6266 0)
+			(at 93.98 49.6066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -236,8 +236,8 @@
 		)
 	)
 	(sheet
-		(at 58.166 21.59)
-		(size 26.416 26.162)
+		(at 125.984 22.352)
+		(size 36.576 129.54)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,7 +252,7 @@
 		)
 		(uuid "a9cd570d-dbcd-46d1-9afc-2de8c61de601")
 		(property "Sheetname" "MCU"
-			(at 58.166 20.8784 0)
+			(at 125.984 21.6404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 58.166 48.3366 0)
+			(at 125.984 152.4766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -282,8 +282,8 @@
 		)
 	)
 	(sheet
-		(at 125.476 55.88)
-		(size 27.432 26.416)
+		(at 166.624 86.614)
+		(size 27.432 27.686)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -298,7 +298,7 @@
 		)
 		(uuid "b8731b86-ad63-478d-8725-f2f56c91510b")
 		(property "Sheetname" "Isolated_IN_OUT"
-			(at 125.476 55.1684 0)
+			(at 166.624 85.9024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -309,7 +309,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolated_IN_OUT.kicad_sch"
-			(at 125.476 82.8806 0)
+			(at 166.624 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -328,7 +328,7 @@
 		)
 	)
 	(sheet
-		(at 26.162 55.372)
+		(at 94.742 123.444)
 		(size 27.686 26.416)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -344,7 +344,7 @@
 		)
 		(uuid "dad75c8d-d691-4f61-b47a-68278cae080f")
 		(property "Sheetname" "RS485"
-			(at 26.162 54.6604 0)
+			(at 94.742 122.7324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 26.162 82.3726 0)
+			(at 94.742 150.4446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -369,6 +369,52 @@
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.386 122.174)
+		(size 26.416 27.686)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9bc742f-7096-474d-a96c-33960f718fa8")
+		(property "Sheetname" "LCD"
+			(at 167.386 121.4624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 167.386 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7"
+					(page "10")
 				)
 			)
 		)

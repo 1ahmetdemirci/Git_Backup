@@ -2883,61 +2883,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 15.494 67.31)
-		(end 124.714 114.554)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "749908c5-ee4c-4d91-9546-051d02f4f705")
-	)
-	(rectangle
-		(start 15.494 16.51)
-		(end 124.714 63.754)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c098d4e4-23ba-4aa9-99b4-b6a29386b01c")
-	)
-	(rectangle
-		(start 15.494 116.586)
-		(end 90.17 152.654)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c559054b-02d4-41ab-a169-17cabdc7c67e")
-	)
-	(text "+"
+	(text "3.3V/1.5A"
 		(exclude_from_sim no)
-		(at 18.288 18.796 0)
+		(at 76.2 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "6d5d4429-ce45-4e12-8baa-37c407d7b766")
-	)
-	(text "+"
-		(exclude_from_sim no)
-		(at 17.272 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7892add7-5272-4ac7-a777-b27d31af4d4a")
+		(uuid "788aaf91-bcac-4c08-8aa9-fd6e4672e45c")
 	)
 	(text "+"
 		(exclude_from_sim no)
@@ -2949,17 +2903,87 @@
 		)
 		(uuid "83d529ab-bb59-4000-b9aa-b7ad25683b51")
 	)
-	(text "+"
+	(text "3.8V/3A"
 		(exclude_from_sim no)
-		(at 17.272 69.088 0)
+		(at 111.252 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ddc67574-d3c9-4472-a08e-552cec092acf")
+		(uuid "a758a111-d4d6-4f07-a84f-ed2c277ad311")
 	)
-	(text_box "USB - mini B USB 2.0"
+	(text "5V/3A"
+		(exclude_from_sim no)
+		(at 111.506 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3d19cfd-d087-43e0-a9fe-8bc1ab7c8fdb")
+	)
+	(text_box "12V to 3.8V Switching Regulators++"
+		(exclude_from_sim no)
+		(at 15.748 64.77 0)
+		(size 106.172 48.514)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "253201bb-b771-4262-a9f1-b5f3cd4baeb3")
+	)
+	(text_box "12V to 5V Switching Regulators++"
+		(exclude_from_sim no)
+		(at 15.748 17.018 0)
+		(size 106.172 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2b65cc0f-7055-47c6-83e1-6abb66c10904")
+	)
+	(text_box "5V to 3.3V Regulators LDO++"
+		(exclude_from_sim no)
+		(at 15.748 116.078 0)
+		(size 74.422 36.322)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4cae1c4d-c326-430e-af21-3ea0f2e3ec25")
+	)
+	(text_box "USB - mini B USB 2.0++"
 		(exclude_from_sim no)
 		(at 129.032 17.78 0)
 		(size 80.264 47.244)

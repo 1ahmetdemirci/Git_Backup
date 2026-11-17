@@ -1063,6 +1063,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -4346,6 +4469,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4476,26 +4738,6 @@
 	)
 	(text "+"
 		(exclude_from_sim no)
-		(at 33.02 17.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "98a16c87-b2e2-48ea-92d4-4563d3f959e7")
-	)
-	(text "+"
-		(exclude_from_sim no)
-		(at 34.036 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a7c25dde-05a2-4f91-8e86-d250566dedcd")
-	)
-	(text "+"
-		(exclude_from_sim no)
 		(at 118.364 16.002 0)
 		(effects
 			(font
@@ -4503,16 +4745,6 @@
 			)
 		)
 		(uuid "b7c4d658-d42a-4ec4-bae0-141813a248f0")
-	)
-	(text "+"
-		(exclude_from_sim no)
-		(at 116.078 117.856 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cd6e340e-94c5-424f-841c-af0dffb08ae9")
 	)
 	(text_box "SİMHOLDER"
 		(exclude_from_sim no)
@@ -4529,14 +4761,13 @@
 		(effects
 			(font
 				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.2223)
 			)
 			(justify left top)
 		)
 		(uuid "117c398f-0d63-4528-96c4-835cbbe2648a")
 	)
-	(text_box "LEVEL SHİFTER"
+	(text_box "LEVEL SHİFTER++"
 		(exclude_from_sim no)
 		(at 15.748 15.24 0)
 		(size 75.184 65.278)
@@ -4571,8 +4802,7 @@
 		(effects
 			(font
 				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.2223)
 			)
 			(justify left top)
 		)
@@ -6258,16 +6488,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.955 120.65) (xy 276.86 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a2e328-7715-4a7c-b61a-2afaecc8ea48")
-	)
-	(wire
-		(pts
 			(xy 53.34 132.08) (xy 53.34 138.43)
 		)
 		(stroke
@@ -6755,6 +6975,16 @@
 			(type default)
 		)
 		(uuid "ed08fe49-fdca-4861-8627-eff04f2202a6")
+	)
+	(wire
+		(pts
+			(xy 274.32 120.65) (xy 276.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7a0be8-d0f6-45b6-a76b-ce41bf739572")
 	)
 	(wire
 		(pts
@@ -7552,17 +7782,6 @@
 			)
 		)
 	)
-	(hierarchical_label "GSM_D-"
-		(shape input)
-		(at 158.75 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "024cae08-39a9-4c31-bb64-a17dbe498e98")
-	)
 	(hierarchical_label "SIM-1-DETECT"
 		(shape input)
 		(at 38.1 132.08 180)
@@ -7575,7 +7794,7 @@
 		(uuid "218deaa9-1976-4118-b8e3-0893dd61b171")
 	)
 	(hierarchical_label "GSM{slash}STS"
-		(shape input)
+		(shape output)
 		(at 77.47 66.04 0)
 		(effects
 			(font
@@ -7584,18 +7803,6 @@
 			(justify left)
 		)
 		(uuid "31586d29-a877-4db4-80c6-982cbe8858c8")
-	)
-	(hierarchical_label "GSM_VBUS"
-		(shape input)
-		(at 158.75 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "319faea5-ea37-429b-a1bf-7c4f3703dbf9")
 	)
 	(hierarchical_label "NETLIGHT"
 		(shape input)
@@ -7619,17 +7826,6 @@
 		)
 		(uuid "50b5dc69-49fc-4716-b999-30f49185f964")
 	)
-	(hierarchical_label "GSM_D+"
-		(shape input)
-		(at 158.75 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52acd701-f7b3-4e76-a336-2d0ec34817d2")
-	)
 	(hierarchical_label "GSM{slash}RXD1"
 		(shape input)
 		(at 77.47 62.23 0)
@@ -7641,28 +7837,6 @@
 			(justify left)
 		)
 		(uuid "57bf0dae-2810-4865-98f4-0b4e536b2625")
-	)
-	(hierarchical_label "Gsm_Power"
-		(shape input)
-		(at 274.955 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6dcb530-9356-43c0-8e0a-ae02665a0774")
-	)
-	(hierarchical_label "Gsm_Power"
-		(shape input)
-		(at 101.6 73.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d85c2252-6c30-45bf-b3f7-2eafcc28c26f")
 	)
 	(hierarchical_label "GSM-PWRKEY"
 		(shape input)
@@ -7676,7 +7850,7 @@
 		(uuid "da60709b-ccaf-44f4-8a3e-c338021d1399")
 	)
 	(hierarchical_label "GSM{slash}TXD1"
-		(shape input)
+		(shape output)
 		(at 77.47 58.42 0)
 		(effects
 			(font
@@ -7709,7 +7883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01e2fdce-bc76-4de6-9502-c1391f87d4f5")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 47.498 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7958,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0325f6c5-feb1-4bf9-a512-a1ae49ab756a")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR068"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7861,7 +8035,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR064")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7878,7 +8052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05c7c97d-3d53-4915-a741-6014bc9e2fe9")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 267.335 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7953,7 +8127,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7970,7 +8144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05fb4baa-73c6-4a35-9ba4-e52ef8f05846")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 217.805 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8219,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07e73ce5-a62d-4ff3-ac4f-55e9b8d0e1d5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 60.96 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8122,7 +8296,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8209,6 +8383,83 @@
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c9854df-0efc-4334-91a9-13a1c5891cca")
+		(property "Reference" "TP1"
+			(at 158.242 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 155.448 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 158.75 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1e3504b-8d1e-44a3-af77-0cf173d6d1fb")
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8303,7 +8554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20f76295-aaa4-448f-8ade-dd6dc2859a11")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8363,7 +8614,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8380,7 +8631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21832ad9-40bc-4415-bc08-bc1651add3be")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 83.82 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8691,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28460dd4-a542-4cef-8734-8f80f621cfc6")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 75.565 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,7 +8795,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8561,7 +8812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b8d81b-7ab4-4c63-b9ce-2cb382a711d9")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR061"
 			(at 78.74 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8621,7 +8872,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR057")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8716,7 +8967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3146bc83-4f89-4bd8-b606-a8e2fd001a60")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 124.46 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8776,7 +9027,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8794,7 +9045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "326674a6-a4cd-4754-ab6d-04bab84170ef")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR078"
 			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8853,7 +9104,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR074")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8870,7 +9121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3423aaff-705c-4aa7-933b-856a21c5276c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 111.76 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8930,7 +9181,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e4ad9d-711f-4393-a84b-9cda7231da86")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR074"
 			(at 236.855 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9093,7 +9344,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR070")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9111,7 +9362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38513f5e-6cfd-4a38-a94e-9b4d494493cb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 150.495 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9170,7 +9421,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9188,7 +9439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b0621ed-e1b0-4256-b4de-606bb6eea1e8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR071"
 			(at 181.61 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9247,7 +9498,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e0e1bed-1876-4631-b3b9-e9b87aacd16c")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 174.625 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +9590,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e65760-fc78-491b-8f7d-585384620395")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 140.97 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9502,7 +9753,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9519,7 +9770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "473096aa-fca0-457d-84d4-b2b580f2a7d0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 45.72 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9579,7 +9830,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9596,7 +9847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51fe23cf-c439-46c7-abfd-7b4e227630c6")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 137.16 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +9920,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9687,7 +9938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de3de4e-157e-4531-b6e6-49d813ef8cf0")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 50.292 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,7 +10039,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9883,7 +10134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60287712-03c7-49ae-a2d0-522ac51ae22b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 55.88 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +10194,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9960,7 +10211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60b8e728-1b59-47a2-929c-5dc12c96c233")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 69.85 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10020,7 +10271,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64d81e02-93b8-4e0a-b599-beb1de32ddbd")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR075"
 			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10097,7 +10348,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR071")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10114,7 +10365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6570324d-8b6d-4d6a-acfc-54c49a7c7f0c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 78.74 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10174,7 +10425,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10191,7 +10442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "675400a3-0f5d-4644-94e3-d2ab6a54b98d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 31.75 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10251,7 +10502,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10348,7 +10599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "716c0575-08ef-498b-ab53-26887c8ecf35")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR070"
 			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10659,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -10425,7 +10676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71a2c47c-d923-478f-bb89-05199f5cf6f4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR053"
 			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10485,7 +10736,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR049")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10502,7 +10753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71a44384-a2d7-4a49-a63b-ff3d26232328")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 40.64 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10562,7 +10813,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10580,7 +10831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724fd0ab-b34f-4f51-a4e9-0c3e8e06688c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 72.39 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +10891,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10657,7 +10908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7463fe4c-c6a0-4310-af93-d9104affe956")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10717,7 +10968,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74a8604a-4081-4cb8-b8cd-4186054a8f3d")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 44.196 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +11058,84 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C30")
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7501ce53-a625-404e-a6cf-8501c8b6b819")
+		(property "Reference" "TP2"
+			(at 158.242 58.674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 155.448 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 158.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d3e4060-a6b0-43f4-9fba-1feebe1e34a9")
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10825,7 +11153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ff0d8c-ca64-4029-8183-7aa4dcc609da")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR077"
 			(at 267.335 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -10884,7 +11212,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR073")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10902,7 +11230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e2face-16f9-4fe3-87f4-f9a8ed1e7841")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 235.6486 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11543,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -11232,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d6aabba-2c04-4f2f-bff7-a6526cba60bc")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 125.73 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11307,7 +11635,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -11324,7 +11652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "828c9526-904d-4866-a034-c96a874255ed")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 54.61 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11397,7 +11725,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11414,7 +11742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc9a218-4f14-4d02-9cd0-24e00f417c05")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 44.45 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11487,7 +11815,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11604,7 +11932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e0f19e0-328a-4c37-974e-dc810b5f1181")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 276.987 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11667,7 +11995,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11684,7 +12012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b7c80e-b5d5-4439-a784-891be394e0b0")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 59.69 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11757,7 +12085,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11774,7 +12102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96c831e3-dd1d-4c51-b316-fa2e416be898")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 69.596 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +12175,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -11865,7 +12193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cecb3a-5458-419e-9ada-be903e04f1c4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR076"
 			(at 270.51 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11925,7 +12253,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR072")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11942,7 +12270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9925dd71-d39c-472c-83e2-747ab714619a")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 39.878 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12016,7 +12344,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12033,7 +12361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "997b9d58-8525-48c8-9636-d306631c0def")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 31.75 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +12435,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12124,7 +12452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a083078c-102a-431e-9965-6dcb8532a78e")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 39.116 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12197,7 +12525,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12214,7 +12542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a21e07bc-2de6-44f6-9398-f9b684c87218")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 163.322 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +12617,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12393,7 +12721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d0814e-6d2e-4e07-95dc-f7169946022b")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 193.675 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12452,7 +12780,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -12469,7 +12797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5ef95df-6011-4795-8480-c7e7a158bae0")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 163.322 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12544,7 +12872,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -12561,7 +12889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68f4ca0-2eb4-439e-9d43-8ddb52bfbf82")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 140.97 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12636,7 +12964,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac8c045d-c813-4357-ae03-77e65b9f30b0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 100.33 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12713,7 +13041,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12730,7 +13058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2252453-6fda-42af-8bcc-c6e245f0b4a7")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 259.715 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12805,7 +13133,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12822,7 +13150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be7a1255-5139-4f5c-9e20-5a4e215a1819")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 49.53 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12895,7 +13223,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -12912,7 +13240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfe01b8c-71cf-45ae-869a-3846a323c057")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 47.498 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12987,7 +13315,84 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R10")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V8")
+		(at 274.32 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2f93abd-18c7-4f59-86ad-1853f4d6806d")
+		(property "Reference" "#PWR0150"
+			(at 278.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V8"
+			(at 270.002 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V8\""
+			(at 274.32 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff83de6c-28bf-405e-b31a-ed03b465e653")
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -13004,7 +13409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca3e6459-360f-4a33-98d2-4efef355ea4d")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 133.985 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13079,7 +13484,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13096,7 +13501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce219537-f0b5-438f-a67c-9862bac7b165")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 224.79 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13171,7 +13576,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13188,7 +13593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18997e4-b639-43c9-bc4a-f3c4fad5ea71")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 132.08 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13248,7 +13653,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13265,7 +13670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2f11dda-99a2-4fa5-a981-8f97bec48b2f")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 145.034 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13338,7 +13743,84 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C38")
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6786331-e660-4e5a-bf34-94ac76b199b2")
+		(property "Reference" "TP3"
+			(at 158.242 61.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 155.448 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 158.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0f70613-3e46-4b52-b246-54b94b6e5802")
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7850f01-f692-4235-9783-5e38f087bab3")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 224.79 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13897,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -13432,7 +13914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df66f784-29b6-4f20-a4b5-285efb9120a3")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 181.61 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13507,7 +13989,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13524,7 +14006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e33d66f0-580a-4ea8-8496-a0af118d87a0")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 133.35 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,7 +14081,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -13616,7 +14098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e56b882c-42bc-4103-8c43-b15c0d416261")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 71.12 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13690,7 +14172,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13831,7 +14313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9841714-8d72-4684-8430-32836d89b485")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 163.322 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +14389,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13924,7 +14406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaea8bd1-523b-4c64-9d8a-10fbbb66e24d")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 152.4 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13997,7 +14479,7 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -14014,7 +14496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb10b669-dcce-40b9-9836-2f6ba8d8ce33")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 46.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14074,7 +14556,84 @@
 		(instances
 			(project "Stm32_and_Simcom_Project"
 				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
-					(reference "#PWR048")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V8")
+		(at 101.6 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f59f678e-8570-4922-b4da-c89794eef5e9")
+		(property "Reference" "#PWR0149"
+			(at 101.6 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V8"
+			(at 101.6 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V8\""
+			(at 101.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e8b9db0-0445-4842-a2ad-77c64680ac03")
+		)
+		(instances
+			(project "Stm32_and_Simcom_Project"
+				(path "/5eb8dd21-6964-4609-962a-6987dfc89ab7/463a44cd-96d3-489f-8616-1eb76e564fcc"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)

@@ -603,12 +603,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "link",
+          "name": "link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacture",
+          "name": "manufacture",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacture part number",
+          "name": "manufacture part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -653,7 +707,7 @@
         "uuid": "5eb8dd21-6964-4609-962a-6987dfc89ab7"
       }
     ],
-    "used_designators": "#PWR1-145,#PWR161,#PWR901-902,BT1,D1-13,D901-902,C1-65,K1-2,FB1-2,FL1,J1-6,J14-27,L1-4,M1,Q1-8,Q901,R1-69,R901-906,U1-20,U901,Y1-3,SW1",
+    "used_designators": "#PWR1-154,#PWR161,#PWR901-902,BT1,D1-13,D901-902,C1-65,K1-2,FB1-2,FL1,J1-7,J14-27,L1-4,M1,Q1-8,Q901,R1-73,R901-906,U1-21,U901,Y1-3,SW1,TP1-3",
     "variants": []
   },
   "sheets": [
@@ -692,6 +746,10 @@
     [
       "b8731b86-ad63-478d-8725-f2f56c91510b",
       "Isolated_IN_OUT"
+    ],
+    [
+      "f9bc742f-7096-474d-a96c-33960f718fa8",
+      "LCD"
     ]
   ],
   "text_variables": {},
