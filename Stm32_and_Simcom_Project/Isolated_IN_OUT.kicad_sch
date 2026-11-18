@@ -3208,7 +3208,7 @@
 		)
 		(uuid "5133a534-ea3b-42f3-8920-c4041cd76477")
 	)
-	(hierarchical_label "ISO_OUT1"
+	(hierarchical_label "ISO_OUT2"
 		(shape output)
 		(at 166.37 107.95 180)
 		(effects
@@ -3217,7 +3217,7 @@
 			)
 			(justify right)
 		)
-		(uuid "baf14a79-bdfc-4feb-9193-a1f203908e4b")
+		(uuid "8ceed64b-0d80-430f-bfa1-fd5974b1457f")
 	)
 	(hierarchical_label "ISO_DIN1"
 		(shape input)
